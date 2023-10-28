@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center><h3>Forms</h3></center>
+    <form action="backend.php" style="border: 1px solid blueviolet ;width: fit-content;padding: 10px 10px; margin: auto;">
+        <label for="myName">Name</label>
+        <div>
+            <input type="text" id="myName">
+        </div>
+        <br>
+        <label for="myClass">Class</label>
+        <div>
+            <input type="text" id="myClass">
+        </div>
+        <br>
+        <label for="myAdmnNo">Admn. no.</label>
+        <div>
+            <input type="text" id="myAdmnNo">
+        </div>
+        <br>
+        <label for="Language">Choose Programming Language</label>
+        <div>
+            C++: <input type="radio" name="lang" id=""> JAVA: <input type="radio" name="lang" id="">
+        </div>
+        <br>
+        <label for="">Gender</label>
+        <div>
+            Male: <input type="radio" name="myGender" > Female: <input type="radio" name="myGender"> 
+        </div>
+        <label for="batch">Batch</label>
+        <div>
+            <select name="myBatch" id="batch">
+                <option value="Sel">Select</option>
+                <option value="U">Uniques</option>
+                <option value="S">S60</option>
+                <option value="n">NONE</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Comment: <br><textarea name="comment" id="myComment" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit"><input type="reset" name="reset">
+        </div>
+
+    </form>
+</body>
+</html>

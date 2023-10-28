@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--  -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <form>
+        <!-- text input -->
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="myname" placeholder="Your name" required>
+        <br><br>
+        <!-- number input -->
+        <label for="myno">ADM No:</label>
+        <br>
+        <input type="password" id="myno" name="mynum" maxlength="10" placeholder="your adm no." required>
+        <br><br>
+        <!--radio button -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" id="male"><label for="male">Male:</label>
+        <br>
+        <input type="radio" name="gender" id="female"><label for="female">Female:</label>
+        <br><br>
+        <label for="date">DATE:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <!--selection-->
+        <select name="Select" id="myselection">
+            <option value="sess1">Session 1</option>
+            <option value="sess2">Session 2</option>
+            <option value="sess3">Session 3</option>
+        </select>
+        <br><br>
+        <label for="underst">Understanding Level:</label>
+        <br>
+        <input type="radio" name="underst" id="1Star"><label for="1Star">1 Star</label>
+        <br>
+        <input type="radio" name="underst" id="2Star"><label for="2Star">2 Star</label>
+        <br>
+        <input type="radio" name="underst" id="3Star"><label for="3Star">3 Star</label>
+        <br>
+        <input type="radio" name="underst" id="4Star"><label for="4Star">4 Star</label>
+        <br><br>
+        <label for="diff">Difficulty Level:</label>
+        <br>
+        <input type="radio" name="diff" id="1 Star"><label for="1 Star">1 Star</label>
+        <br>
+        <input type="radio" name="diff" id="2 Star"><label for="2 Star">2 Star</label>
+        <br>
+        <input type="radio" name="diff" id="3 Star"><label for="3 Star">3 Star</label>
+        <br>
+        <input type="radio" name="diff" id="4 Star"><label for="4 Star">4 Star</label>
+        <br><br>
+        <!--checkbox-->
+        <label for="weak">Weakness:</label>
+        <br>
+        <input type="checkbox" name="oops" id="oops"><label for="oops">Oops</label>
+        <br>
+        <input type="checkbox" name="C++" id="C++"><label for="C++">C++</label>
+        <br>
+        <input type="checkbox" name="HTML" id="HTML"><label for="HTML">html</label>
+        <br>
+        <input type="checkbox" name="C" id="C"><label for="C">C</label>
+        <br><br>
+        <!--comment-->
+        <label for="comment">Comment:</label><br><textarea id="comment" cols="30" rows="10"></textarea>
+        <br><br>
+        <!-- submit and rest -->
+        <input type="submit" name="submit">
+        <input type="reset" mame="reset">
+        <br><br>
+    </form>
+</body>
+
+</html>
